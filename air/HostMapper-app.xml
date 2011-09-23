@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://ns.adobe.com/air/application/2.7">
+  <id>org.nydd.hostmapper</id>
+  <versionNumber>0.1</versionNumber>
+  <filename>HostMapper</filename>
+  <initialWindow>
+    <content>HostMapper.html</content>
+    <visible>true</visible>
+    <width>400</width>
+    <height>200</height>
+  </initialWindow>
+  <supportedProfiles>extendedDesktop</supportedProfiles>
+</application>
