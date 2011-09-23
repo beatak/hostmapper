@@ -9,5 +9,8 @@
     <width>400</width>
     <height>200</height>
   </initialWindow>
-  <supportedProfiles>extendedDesktop</supportedProfiles>
+  <supportedProfiles>desktop extendedDesktop</supportedProfiles>
+  <icon>
+    <image128x128>assets/128.png</image128x128>
+  </icon>
 </application>
