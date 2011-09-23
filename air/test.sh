@@ -7,4 +7,4 @@
 
 AIR_PATH="$HOME/Library/adobe_air/current"
 
-${AIR_PATH}/bin/adt -package -storetype pkcs12 -keystore ${AIR_PATH}/sampleCert.pfx HostMapper.air HostMapper-app.xml HostMapper.html assets/AIRAliases.js assets/jquery-1.6.4.js assets/main.js assets/128.png
+${AIR_PATH}/bin/adl HostMapper-app.xml
