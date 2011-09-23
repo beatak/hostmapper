@@ -1,20 +1,20 @@
-({
+{
   name: 'takashi',
-  description: 'my desktop ',
+  description: 'my desktop',
   maps: {
     localhost: '127.0.0.1',
     'takbook.dev': '127.0.0.1',
     'static*.example.com': {
       ip: '192.168.0.127',
-      rule: HostMapper.COUNTUP,
+      rule: 'HostMapper.COUNTUP',
       min: 0,
       max: 4,
       includeNone: true
     },
     '*.dev.example.com': {
       ip: '192.168.0.127',
-      rule: HostMapper.FILEINPUT,
-      file: '$HOME/Repository/hostmapper/examples/hosts.txt'
+      rule: 'HostMapper.FILEINPUT',
+      file: '/path/to/hosts.txt'
     }
   }
-})
+}
